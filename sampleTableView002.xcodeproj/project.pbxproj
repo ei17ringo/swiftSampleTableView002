@@ -14,6 +14,8 @@
 		1B4172C01C646D8800A70F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4172BE1C646D8800A70F6A /* LaunchScreen.storyboard */; };
 		1B4172CB1C646D8800A70F6A /* sampleTableView002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4172CA1C646D8800A70F6A /* sampleTableView002Tests.swift */; };
 		1B4172D61C646D8800A70F6A /* sampleTableView002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4172D51C646D8800A70F6A /* sampleTableView002UITests.swift */; };
+		1B4172E41C647B5000A70F6A /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4172E31C647B5000A70F6A /* secondViewController.swift */; };
+		1B775AAA1C6497B30047BD96 /* darjeeling_cup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B775AA91C6497B30047BD96 /* darjeeling_cup.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1B4172D11C646D8800A70F6A /* sampleTableView002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTableView002UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4172D51C646D8800A70F6A /* sampleTableView002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTableView002UITests.swift; sourceTree = "<group>"; };
 		1B4172D71C646D8800A70F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4172E31C647B5000A70F6A /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		1B775AA91C6497B30047BD96 /* darjeeling_cup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darjeeling_cup.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		1B4172B41C646D8800A70F6A /* sampleTableView002 */ = {
 			isa = PBXGroup;
 			children = (
+				1B775AA91C6497B30047BD96 /* darjeeling_cup.jpg */,
 				1B4172B51C646D8800A70F6A /* AppDelegate.swift */,
 				1B4172B71C646D8800A70F6A /* ViewController.swift */,
 				1B4172B91C646D8800A70F6A /* Main.storyboard */,
 				1B4172BC1C646D8800A70F6A /* Assets.xcassets */,
 				1B4172BE1C646D8800A70F6A /* LaunchScreen.storyboard */,
 				1B4172C11C646D8800A70F6A /* Info.plist */,
+				1B4172E31C647B5000A70F6A /* secondViewController.swift */,
 			);
 			path = sampleTableView002;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B4172C01C646D8800A70F6A /* LaunchScreen.storyboard in Resources */,
+				1B775AAA1C6497B30047BD96 /* darjeeling_cup.jpg in Resources */,
 				1B4172BD1C646D8800A70F6A /* Assets.xcassets in Resources */,
 				1B4172BB1C646D8800A70F6A /* Main.storyboard in Resources */,
 			);
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B4172B81C646D8800A70F6A /* ViewController.swift in Sources */,
+				1B4172E41C647B5000A70F6A /* secondViewController.swift in Sources */,
 				1B4172B61C646D8800A70F6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +490,7 @@
 				1B4172DC1C646D8800A70F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B4172DD1C646D8800A70F6A /* Build configuration list for PBXNativeTarget "sampleTableView002Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				1B4172DF1C646D8800A70F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B4172E01C646D8800A70F6A /* Build configuration list for PBXNativeTarget "sampleTableView002UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				1B4172E21C646D8800A70F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
